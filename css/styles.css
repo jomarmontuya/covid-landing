@@ -269,16 +269,17 @@
 /* Media Queries for 582px below */
 @media screen and (max-width: 582px) {
   .navbar-brand {
-    font-size: 1rem;
+    font-size: .6rem;
   }
   .navbar-brand img {
     padding-right: 0px;
     width: 20%;
   }
   .navbar-toggler-icon {
-    width: .3em;
-    height: .3em;
+    width: .6em;
+    height: .6em;
   }
+
 
 
 }
