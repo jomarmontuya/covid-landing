@@ -260,6 +260,10 @@
   .news-heading {
     padding: 10%;
   }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
 
 }
 /* Media Queries for 582px below */
@@ -271,4 +275,10 @@
     padding-right: 0px;
     width: 20%;
   }
+  .navbar-toggler-icon {
+    width: .3em;
+    height: .3em;
+  }
+
+
 }
