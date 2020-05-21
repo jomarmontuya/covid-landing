@@ -232,6 +232,10 @@
     padding: 10px;
     font-weight: bold;
   }
+  .mini-virus-left {
+    height: 20%;
+  }
+
 
   .btn-danger {
     margin-bottom: 20%;
@@ -278,6 +282,12 @@
   .navbar-toggler-icon {
     width: .6em;
     height: .6em;
+  }
+  .hero-text {
+    font-size: 1rem;
+  }
+  .hero-heading {
+    font-size: 2rem;
   }
 
 
