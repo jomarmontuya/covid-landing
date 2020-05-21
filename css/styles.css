@@ -228,7 +228,7 @@
     font-size: 2rem;
   }
   .nav-item {
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 10px;
     font-weight: bold;
   }
@@ -262,6 +262,10 @@
 /* Media Queries for 582px below */
 @media screen and (max-width: 582px) {
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .navbar-brand img {
+    padding-right: 0px;
+    height: 50%;
   }
 }
