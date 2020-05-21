@@ -257,6 +257,9 @@
     width: 100%;
     margin-left: 0px;;
   }
+  .news-heading {
+    padding: 10%;
+  }
 
 }
 /* Media Queries for 582px below */
@@ -266,6 +269,6 @@
   }
   .navbar-brand img {
     padding-right: 0px;
-    height: 50%;
+    width: 20%;
   }
 }
