@@ -60,7 +60,7 @@
   }
   
   /* Hero section */
-  .hero {
+  #hero {
     margin: 0 auto;
   }
   
@@ -130,13 +130,12 @@
   }
   hr {
     width: 15%;
-  
+
   }
   /* Symptoms Section */
   .sick-woman {
     width: 70%;
     margin-left: 15%;
-  
   }
   .symptoms-heading {
       color: var(--blue);
@@ -208,3 +207,61 @@
     font-weight: lighter;
   }
   /* ========Media Queries============ */
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-item {
+    font-size: 1.5rem;
+  }
+  .hero-heading {
+    font-size: 3rem;
+  }
+  img[alt="woman-doctor"] {
+    height: 80%
+  }
+
+}
+/* Media Queries for 991px below */
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .nav-item {
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .btn-danger {
+    margin-bottom: 20%;
+  }
+
+  #hero {
+    text-align: center;
+  }
+ 
+  .hero-heading {
+    font-size: 3rem;
+  }
+  #symptoms {
+    text-align: center;
+  }
+  .symptoms-text {
+    padding:20px;
+  }
+  img[alt="woman-doctor"] {
+    display:none;
+  }
+  .sick-woman {
+    width: 100%;
+    margin-left: 0px;;
+  }
+
+}
+/* Media Queries for 582px below */
+@media screen and (max-width: 582px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
